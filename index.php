@@ -40,9 +40,7 @@
     <article>
         <?php
         $dateTime = new DateTime;
-        $date = $dateTime->format('d/m/Y');
-
-        echo '<p class="date">' . $date . '</p>';
+        echo '<p class="date">' . $dateTime->format('d/m/Y') . '</p>';
         ?>
 
         <h1>COMING SOON!</h1>
