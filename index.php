@@ -36,9 +36,7 @@
     </style>
 </head>
 <body>
-    <header>
-
-    </header>
+    <header> </header>
     <article>
         <?php
         $dateTime = new DateTime;
