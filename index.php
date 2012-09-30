@@ -26,7 +26,6 @@
             color: #f4e324;
             font-weight: normal;
             font-size: 55px;
-
         }
         article a {
             color: #f4e324;
