@@ -1,6 +1,7 @@
 <html>
 <head>
-    <title>The Amaizing Racing Game - Coming soon</title>
+    <title>The Amazing Race Game - Play the online version - Coming Soon!</title>
+    <meta name="description" content="Play The Amazing Race Game online. A new and exciting reality style game. Create your Avatar, and race around the world by completing eight 3 minute challenges.">
     <style type="text/css">
         body {
             margin: 0 auto;
