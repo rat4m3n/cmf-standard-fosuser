@@ -43,22 +43,20 @@
         $dateTime = new DateTime;
         echo '<p class="date">' . $dateTime->format('d/m/Y') . '</p>';
         ?>
+        <h1>The Amazing Race Game</h1>
 
-        <h1>COMING SOON!</h1>
+        <h1>Play The Amazing Race Game online - Coming Soon!</h1>
 
-        <p>A new and exciting online reality style game. <br><br>
+        <p>Register to play the game, and then create your Amazing Race character from the Avatar shop. <br><br>
 
-        once registered, create your profile and Avatar,
-        then begin your race around the world. <br><br>
+       Then, you can begin your Amazing Race around the world! Visit 8 countries, playing 8 challenges along the way,
+               completing your race within 24 hours of starting. <br><br>
 
-        complete eight 3 minute challenges in any 24 hour period
-        and take your place on the leaderboard. <br>
-        chat with other competitors and play instant challenges. <br><br>
+       Your score will be placed on the leaderboard with all the competitors that have taken part in The Amazing Race Game on that day. <br>
+       Chat online with others, meet new friends, and earn Credits to spend in the Avatar shop - so your character can be the
+               coolest competitor in The Amazing Race! <br><br>
 
-        work your way up the leaderboard and use your winnings
-        to buy new outfits for your avatar. <br><br>
-
-        come back soon or
+        Come back to The Amazing Race Game soon or
         <a href="mailto:info@theamazingracegame.com?subject=Add me to your mailing list&body=&Thanks!"
             title="Subscribe"">click here</a> to be added to our mailing list to receive updates and keep track of progress.</p>
 
