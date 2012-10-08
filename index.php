@@ -52,7 +52,7 @@
        Then, you can begin your Amazing Race around the world! Visit 8 countries, playing 8 challenges along the way,
                completing your race within 24 hours of starting. <br><br>
 
-       Your score will be placed on the leaderboard with all the competitors that have taken part in The Amazing Race Game on that day. <br>
+       Your score will be placed on the leaderboard with all the competitors that have taken part in The Amazing Race Game on that day. <br><br>
        Chat online with others, meet new friends, and earn Credits to spend in the Avatar shop - so your character can be the
                coolest competitor in The Amazing Race! <br><br>
 
