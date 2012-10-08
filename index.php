@@ -45,7 +45,7 @@
         ?>
         <h1>The Amazing Race Game</h1>
 
-        <h1>Play The Amazing Race Game online - Coming Soon!</h1>
+        <p>Play The Amazing Race Game online - Coming Soon!</p><br>
 
         <p>Register to play the game, and then create your Amazing Race character from the Avatar shop. <br><br>
 
