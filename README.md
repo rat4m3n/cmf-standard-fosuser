@@ -15,7 +15,7 @@ Original implementation: [https://github.com/symfony-cmf/symfony-cmf-standard](h
   * PHPCR ODM
   * ORM
 
-### Installation
+## Installation
 
 #### Install composer and all dependencies
 
