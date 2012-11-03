@@ -1,0 +1,16 @@
+composer.phar
+web/bundles/
+web/js/
+web/css/
+app/cache/*
+app/logs/*
+vendor/
+app/bootstrap.php.cache
+app/app.sqlite
+parameters.yml
+
+web/config.php
+app/SymfonyRequirements.php
+app/check.php
+
+/bin/

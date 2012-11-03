@@ -1,0 +1,21 @@
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
+
+home_redirect:
+    pattern: /
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: cmf_routing_dynamic_route_cms_simple
+        permanent: true # this for 301
+
+cmf_create_rest:
+    resource: "@SymfonyCmfCreateBundle/Resources/config/routing/rest.xml"
+
+cmf_create_image:
+    resource: "@SymfonyCmfCreateBundle/Resources/config/routing/image.xml"
+
+digital_effect_user:
+    resource: "@DigitalEffectUserBundle/Resources/config/routing.yml"
+    prefix:   /

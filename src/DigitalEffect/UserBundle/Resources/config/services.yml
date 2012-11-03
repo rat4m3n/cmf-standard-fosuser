@@ -1,0 +1,7 @@
+parameters:
+#    digital_effect_user.example.class: DigitalEffect\UserBundle\Example
+
+services:
+#    digital_effect_user.example:
+#        class: %digital_effect_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
