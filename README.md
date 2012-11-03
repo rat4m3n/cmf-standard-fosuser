@@ -17,23 +17,23 @@ Original implementation: [https://github.com/symfony-cmf/symfony-cmf-standard](h
 
 ### Installation
 
-1. Install composer and all dependencies
+#### Install composer and all dependencies
 
 	curl -s http://getcomposer.org/installer | php --
 
-2. Configure db parameters in parameters.yml
+#### Configure db parameters in parameters.yml
 
-3. Setup DB - PHPCR ODM
+#### Setup DB - PHPCR ODM
 
 	app/console doctrine:database:create
 	app/console doctrine:phpcr:init:dbal
 	app/console doctrine:phpcr:register-system-node-types
 	app/console doctrine:phpcr:fixtures:load
 
-4. Setup DB - ORM
+#### Setup DB - ORM
 
 	php app/console doctrine:schema:update --force
 
-5. Only admin has access to create.js editing, so you would need to create a user and assign RULE_ADMIN to it.
+#### Only admin has access to create.js editing, so you would need to create a user and assign RULE_ADMIN to it.
 
 Done.
