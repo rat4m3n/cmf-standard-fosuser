@@ -17,16 +17,20 @@
 
 ### Installation
   * Install composer and all dependencies
+
   curl -s http://getcomposer.org/installer | php --
 
   * Configure db parameters in parameters.yml
+
   * Setup DB - PHPCR ODM
+
   app/console doctrine:database:create
   app/console doctrine:phpcr:init:dbal
   app/console doctrine:phpcr:register-system-node-types
   app/console doctrine:phpcr:fixtures:load
 
   * Setup DB - ORM
+
   php app/console doctrine:schema:update --force
 
   Done.
