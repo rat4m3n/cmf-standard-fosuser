@@ -8,7 +8,7 @@ vendor/
 app/bootstrap.php.cache
 app/app.sqlite
 parameters.yml
-
+.idea/*
 web/config.php
 app/SymfonyRequirements.php
 app/check.php
