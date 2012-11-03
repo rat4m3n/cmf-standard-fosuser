@@ -9,7 +9,7 @@
 
 ## Inspired / improved from:
 
-	Original implementation: [https://github.com/symfony-cmf/symfony-cmf-standard](https://github.com/symfony-cmf/symfony-cmf-standard)
+Original implementation: [https://github.com/symfony-cmf/symfony-cmf-standard](https://github.com/symfony-cmf/symfony-cmf-standard)
 
 ### We implement to CR storage types both using MySQL
   * PHPCR ODM
@@ -19,19 +19,19 @@
 
 Install composer and all dependencies
 
-  curl -s http://getcomposer.org/installer | php --
+	curl -s http://getcomposer.org/installer | php --
 
 Configure db parameters in parameters.yml
 
 Setup DB - PHPCR ODM
 
-  app/console doctrine:database:create
-  app/console doctrine:phpcr:init:dbal
-  app/console doctrine:phpcr:register-system-node-types
-  app/console doctrine:phpcr:fixtures:load
+	app/console doctrine:database:create
+	app/console doctrine:phpcr:init:dbal
+	app/console doctrine:phpcr:register-system-node-types
+	app/console doctrine:phpcr:fixtures:load
 
 Setup DB - ORM
 
-  php app/console doctrine:schema:update --force
+	php app/console doctrine:schema:update --force
 
 Done.
