@@ -1,0 +1,27 @@
+parameters:
+    locale: en
+    locales: [en]
+    secret: 10784a86848b5412b5f7fa644e90ef24e
+
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: 3306
+    database_name: cmf-standard-fos
+    database_user: root
+    database_password: 
+    database_charset: UTF8
+
+    mailer_transport:  smtp
+    mailer_host:       localhost
+    mailer_user:       ~
+    mailer_password:   ~
+
+    phpcr_backend:
+        type: doctrinedbal
+        connection: doctrine.dbal.default_connection
+        caches:
+            meta: liip_doctrine_cache.ns.meta
+            nodes: liip_doctrine_cache.ns.nodes
+    phpcr_workspace: default
+    phpcr_user: admin
+    phpcr_pass: admin
